@@ -203,11 +203,11 @@ endfunction
 
 
 "generate cpp define and put in cpp file
-command! -buffer -nargs=0 H2cppx call H2cppx(0)
-command! -buffer -nargs=0 H2cppxLine call H2cppxLine(0)
+command! -nargs=0 H2cppx call H2cppx(0)
+command! -nargs=0 H2cppxLine call H2cppxLine(0)
 "generate cpp define and put in clipboard
-command! -buffer -nargs=0 CpH2cppx call H2cppx(1)
-command! -buffer -nargs=0 CpH2cppxLine call H2cppxLine(1)
+command! -nargs=0 CpH2cppx call H2cppx(1)
+command! -nargs=0 CpH2cppxLine call H2cppxLine(1)
 "auto generate cpp define 
-command! -buffer -nargs=0 H2cppxAuto call H2cppxAuto()
+command! -nargs=0 H2cppxAuto call H2cppxAuto()
 
