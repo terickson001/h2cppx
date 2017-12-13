@@ -19,15 +19,10 @@ Then run below command:
 
     cd ~/.vim/plugin
     git clone 'https://github.com/xuqix/h2cppx.git
-    cd  h2cppx
-    git checkout vim-port
 
 or you can use bundle to install it:
 
-add `Bundle 'xuqix/h2cppx'` to ~/.vimrc and install it,then:
-
-    cd ~/.vim/bundle/h2cppx
-    git checkout vim-port
+add `Plugin 'xuqix/h2cppx'` to ~/.vimrc and install it,then:
 
 Now you can start using it.
 
